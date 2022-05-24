@@ -1,3 +1,8 @@
+.background-grey {
+  // background-color: #F3F3F3;
+  background-color: #E5E5E5;
+
+}
 
 
 #hero {
@@ -17,26 +22,33 @@
   right: 0;
   z-index: -1;
 
-  
+
+
 .wrapper {
-  height: 100vh;
+  
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .typing-demo{
-  width: 38ch;
-  animation: typing 4s steps(38),
-  blink .4s step-end infinite alternate;
+  width: 36ch;
+  animation: typing 2s steps(45),
+  blink .2s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-size: 4em;
+  font-size: 3em;
+  font-family: monospace;
+}
+
+.monospace {
+  font-family: monospace;
 }
 
 .spacement {
-  padding-left: 50px;
+  padding-left: 20px;
 }
 
 @keyframes typing {
@@ -64,38 +76,7 @@
     padding: 0rem $default-font-size;
   }
 
-  .wrapper {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   
-  .typing-demo{
-    width: 60ch;
-    animation: typing 3s steps(48),
-    blink .3s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-size: 3em;
-  }
-  
-  .spacement {
-    padding-left: 20px;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0;
-    }
-  }
-  
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
 
   .hero-title {
     font-size: 5.6rem;
