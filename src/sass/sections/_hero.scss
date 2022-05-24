@@ -64,6 +64,39 @@
     padding: 0rem $default-font-size;
   }
 
+  .wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo{
+    width: 60ch;
+    animation: typing 3s steps(48),
+    blink .3s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 3em;
+  }
+  
+  .spacement {
+    padding-left: 20px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
