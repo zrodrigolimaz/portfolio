@@ -1,10 +1,18 @@
+.text-color-main1 {
+  color: #2C3E50;
+  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to right, #4CA1AF, #2C3E50);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+
+}
+
 #about {
   background-color: $primary-color;
-  background-image: linear-gradient(
-    135deg,
-    $primary-color 0%,
-    $secondary-color 100%
-  );
+  background-image: linear-gradient(135deg,
+      $primary-color 0%,
+      $secondary-color 100%);
   color: $white-color;
   height: 100%;
   border-top: 0px;
@@ -32,6 +40,7 @@
       @include respond(tab-land) {
         height: 100%;
       }
+
       @include respond(tab-port-sm) {
         padding-bottom: 6.4rem;
       }
@@ -53,6 +62,7 @@
         @include respond(tab-port) {
           text-align: left;
         }
+
         @include respond(tab-port-sm) {
           text-align: center;
         }
