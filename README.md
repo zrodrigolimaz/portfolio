@@ -1,7 +1,7 @@
 ## A minimal portfolio 
 
 <h2 align="center">
-  <img src="" alt="Simplefolio" width="600px" />
+  <img src="" alt="" width="600px" />
   <br>
 </h2>
 
@@ -108,9 +108,6 @@ I highly recommend to use [Netlify](https://netlify.com) because it is super eas
 - [ScrollReveal.js](https://scrollrevealjs.org/) - JavaScript library
 - [Tilt.js](https://gijsroge.github.io/tilt.js/) - JavaScript tiny parallax library
 
-## Authors
-
-- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
 
 ## Status
 
