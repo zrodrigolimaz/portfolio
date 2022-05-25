@@ -32,10 +32,14 @@
   justify-content: flex-start;
   
 }
+.wrapper a{
+  margin-left: 10px;
+  
+}
 
 .typing-demo{
-  width: 32ch;
-  animation: typing 2s steps(66),
+  width: 36ch;
+  animation: typing 2s steps(72),
   blink .2s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -62,16 +66,24 @@
   }
 } 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
   .typing-demo  {
     font-size: 1.1em;
   }
+} 
+
+@media screen and (max-width: 390px) {
+  .typing-demo  {
+    font-size: 1.0em;
+  }
+  
 } 
 
 @media screen and (max-width: 362px) {
   .typing-demo  {
     font-size: 0.9em;
   }
+  
 } 
 
 @media screen and (max-width: 332px) {
@@ -80,9 +92,7 @@
   }
 } 
 
-.spacement {
-  padding-left: 20px;
-}
+
 
 @keyframes typing {
   from {
