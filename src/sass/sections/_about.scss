@@ -1,12 +1,19 @@
+.about-profile {
+  /* Rectangle 2 */
+  mix-blend-mode: luminosity;
+  // box-shadow: 5px 2px 4px rgba(41, 40, 40, 0.25);
+  border-radius: 45px 45px 45px 21px;
+}
+
 .h23 {
-  
+
   padding-bottom: 36px;
 }
 
 
 
 .text-color-hero {
-  color: #d2d2d2; 
+  color: #d2d2d2;
 }
 
 .personal-project-padding {
@@ -20,8 +27,8 @@
   /* Chrome 10-25, Safari 5.1-6 */
   color: linear-gradient(to right, #3a6073, #3a7bd5);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  
+
+
 
 
 }
@@ -43,7 +50,7 @@
     -webkit-clip-path: none;
     clip-path: none;
   }
-  
+
 
   .about-wrapper {
     @include respond(phone) {
@@ -55,8 +62,8 @@
       height: 100%;
       align-items: center;
       justify-content: center;
-      
-      
+
+
 
       @include respond(tab-land) {
         height: 100%;

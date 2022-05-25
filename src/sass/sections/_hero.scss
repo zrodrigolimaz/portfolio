@@ -34,8 +34,8 @@
 }
 
 .typing-demo{
-  width: 74ch;
-  animation: typing 2s steps(90),
+  width: 32ch;
+  animation: typing 2s steps(66),
   blink .2s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -64,7 +64,7 @@
 
 @media screen and (max-width: 390px) {
   .typing-demo  {
-    font-size: 1em;
+    font-size: 0.6em;
   }
 } 
 
