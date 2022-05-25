@@ -64,7 +64,13 @@
 
 @media screen and (max-width: 390px) {
   .typing-demo  {
-    font-size: 0.6em;
+    font-size: 1.1em;
+  }
+} 
+
+@media screen and (max-width: 362px) {
+  .typing-demo  {
+    font-size: 0.9em;
   }
 } 
 
