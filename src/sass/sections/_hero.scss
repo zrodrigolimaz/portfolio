@@ -9,6 +9,7 @@
   min-height: 100vh;
   height: 100vh;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   border-bottom: 0px;
   background: $white-color;
@@ -27,25 +28,45 @@
 .wrapper {
   
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   
 }
 
 .typing-demo{
-  width: 36ch;
-  animation: typing 2s steps(45),
+  width: 74ch;
+  animation: typing 2s steps(90),
   blink .2s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-size: 3em;
-  font-family: monospace;
+  // font-family: monospace;
 }
 
-.monospace {
-  font-family: monospace;
-}
+@media screen and (max-width: 880px) {
+  .typing-demo  {
+    font-size: 2.5em;
+  }
+} 
+
+@media screen and (max-width: 779px) {
+  .typing-demo  {
+    font-size: 1.6em;
+  }
+} 
+
+@media screen and (max-width: 490px) {
+  .typing-demo  {
+    font-size: 1.3em;
+  }
+} 
+
+@media screen and (max-width: 390px) {
+  .typing-demo  {
+    font-size: 1em;
+  }
+} 
 
 .spacement {
   padding-left: 20px;
@@ -116,3 +137,5 @@
     }
   }
 }
+
+ 
